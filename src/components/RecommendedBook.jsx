@@ -3,7 +3,7 @@ import book from "../assets/book.png"
 
 const RecommendedBook = () => {
     return (
-        <div className="py-3 px-10 sm:px-4 md:px-6 lg:px-6">
+        <div className="py-3 px-8 sm:px-4 md:px-6 lg:px-20 mx-auto">
             <div className="container mx-auto py-[2vh]">
             <div className="text-2xl md:text-3xl font-bold text-center text-[#2e2e2e] lg:text-4xl">
                 Recommendate <span className="text-[#f54748]">Books</span>

@@ -2,7 +2,7 @@ import shop_service from "../assets/serviceTwo.jpg"
 
 const Service_two = () => {
     return (
-        <div className="py-3 px-10 sm:px-4 md:px-6 lg:px-6">
+        <div className="  py-3 px-8 sm:px-4 md:px-6 lg:px-20 mx-auto">
             <div className="container mx-auto py-[2vh]">
                 <div className="grid grid-cols-1 relative lg:grid-cols-2 gap-8 items-center">
                     

@@ -3,7 +3,7 @@ import header from "../assets/book shop.avif"
 
 const Header = () => {
     return (
-        <div className='py-3 px-10 sm:px-4 md:px-6 lg:px-6'>
+        <div className='py-3 px-8 sm:px-4 md:px-6 lg:px-20 mx-auto'>
             <div className='container mx-auto py-[14vh]'>
             <div className='grid grid-cols-1 relative lg:grid-cols-2 gap-8 items-center'>
                 <div className='lg:w-[32rem] w-full flex flex-col space-y-6'>

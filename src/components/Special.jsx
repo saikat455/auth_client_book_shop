@@ -4,12 +4,12 @@ import book from "../assets/specialBooks.webp"
 
 const Special = () => {
     return (
-        <div className="py-3 px-10 sm:px-4 md:px-6 lg:px-6">
+        <div className="py-3 px-8 sm:px-4 md:px-6 lg:px-20 mx-auto">
         <div className="container mx-auto py-[2vh]">
         <div className="text-2xl md:text-3xl font-bold text-center text-[#2e2e2e] lg:text-4xl">
             Special <span className="text-[#f54748]">Books</span>
         </div>
-        <div className="grid py-6 gap-8 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
+        <div className="grid py-6  lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
         <div className="book-card  rounded-lg flex flex-col cursor-pointer items-center p-5">
         <div className="relative mb-3">
 <img src={book} alt="" className="rounded-2xl"/>
