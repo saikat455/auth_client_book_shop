@@ -119,6 +119,7 @@ import { useState } from "react";
 import logo from "../assets/logo.png"; // Ensure the path is correct
 import { TiThMenu } from "react-icons/ti";
 import { RxCross2 } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -218,9 +219,11 @@ const Navbar = () => {
             >
               Popular Reads
             </a>
+            <Link to='/login'>
             <button className="bg-[#f54748] active:scale-90 transition duration-100 transform hover:shadow-xl shadow-md rounded-full px-6 py-2 text-lg font-medium text-white">
               Login
             </button>
+            </Link>
           </div>
         </div>
       </div>
